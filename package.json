@@ -9,7 +9,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "navigationTest-chrome":"npx playwright test navigationTest.spec.ts --project-=chromium"
+    "navigationTest-chrome":"npx playwright test navigationTest.spec.ts --project=chromium"
   },
   "dependencies": {
     "@angular/animations": "^14.2.12",
